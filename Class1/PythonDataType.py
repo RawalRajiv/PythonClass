@@ -1,6 +1,4 @@
 #Different data type in python
-from calendar import prmonth
-
 
 print('-----------------------------------------------------------------------------------------')
 #int datatype
