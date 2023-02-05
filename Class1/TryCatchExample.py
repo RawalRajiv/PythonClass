@@ -1,7 +1,12 @@
+'''
+---------------------------------------------------------------------------------------
+This is example of While, User input, If elif else as well as Try Catch exception
+---------------------------------------------------------------------------------------
+'''
 while True:
     userValue = input("Please enter raw value:");
     try:
-        userInputValue = int(userValue)
+        userInputValue = int(float(userValue))
         if(userInputValue <=0):
             raise ValueError
         elif userInputValue >= 91:
